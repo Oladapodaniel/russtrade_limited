@@ -6,7 +6,6 @@ import React from 'react';
 import {
     Card,
     CardContent,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -57,7 +56,7 @@ const ContactUs: React.FC = () => {
                                 <CardTitle className='satoshi-bold text-2xl text-header-text'>Location</CardTitle>
                             </CardHeader>
                             <CardContent>
-                            <div className='flex gap-2'>
+                                <div className='flex gap-2'>
                                     <img src={location} className='w-4 h-4 mt-1' />
                                     <p className='text-header-text-foreground text-[14px]'>88/89 Peter Odili Road,<br /> Port Hartcourt, Rivers State.</p>
                                 </div>

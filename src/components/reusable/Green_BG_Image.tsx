@@ -1,4 +1,4 @@
-import { hero_img_bg, lady_smiling_one, shorter_dots } from '@/constants/image';
+import { hero_img_bg, lady_smiling_one } from '@/constants/image';
 import React from 'react';
 import { motion } from 'framer-motion';
 

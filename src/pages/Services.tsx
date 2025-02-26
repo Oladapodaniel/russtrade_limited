@@ -1,8 +1,7 @@
 import { FilledButton } from "@/components/reusable/Button";
 import GreenBGImage from "@/components/reusable/Green_BG_Image";
 import GreenBGCard from "@/components/reusable/GreenBG_Card";
-import { Input } from "@/components/ui/input";
-import { agriculture, financial_currency, hero_img, hero_img_bg, investment, oil_gas } from "@/constants/image";
+import { agriculture, financial_currency, investment, oil_gas } from "@/constants/image";
 import React from "react";
 import { motion } from "framer-motion";
 import SubscribeNewLetter from "@/components/reusable/SubscribeNesLetter";
@@ -121,7 +120,7 @@ const Services: React.FC = () => {
                     viewport={{ once: true }}
                     className="flex justify-center mt-10"
                 >
-                    <FilledButton 
+                    <FilledButton
                         text="Book an appointment"
                     />
                 </motion.div>

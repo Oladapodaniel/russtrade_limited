@@ -1,19 +1,9 @@
-import HeaderNav from '@/components/independent/HeaderNav';
+
 import HeroSection from '@/components/independent/HeroSection';
 import GreenBGImage from '@/components/reusable/Green_BG_Image';
-import { Button } from '@/components/ui/button';
 import React from 'react';
-import {
-    Card,
-    CardContent,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
-import { ArrowBigUp, ArrowUp } from 'lucide-react';
 import GreenBGCard from '@/components/reusable/GreenBG_Card';
-import { Input } from '@/components/ui/input';
-import { FilledButton, OutlinedButton } from '@/components/reusable/Button';
+import { FilledButton } from '@/components/reusable/Button';
 import { motion } from 'framer-motion';
 import SubscribeNewLetter from '@/components/reusable/SubscribeNesLetter';
 import { agriculture, financial_market, founder_colleagues, investment, oil_gas } from '@/constants/image';
@@ -67,14 +57,6 @@ const LandingPage: React.FC = () => {
                             </motion.div>
                         </div>
                     </div>
-
-                    {/* <div>
-                        <div className="satoshi-black text-4xl text-header-text">We offer the best services</div>
-                        <div className='mt-5 text-header-text-foreground'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Autem impedit nesciunt doloremque aspernatur incidunt <br />earum! Error natus illum, accusantium dolorum dolore amet dignissimos sapiente <br />accusamus similique, nihil culpa. Officia, laborum.</div>
-                        <div className='mt-10 flex justify-center sm:justify-start w-full'>
-                            <FilledButton />
-                        </div>
-                    </div> */}
                 </GreenBGImage>
             </div >
             <div className='container mx-auto py-[150px]'>
@@ -96,8 +78,6 @@ const LandingPage: React.FC = () => {
                 >
                     We offer a comprehensive range of services designed to meet the unique challenges. <br />Our expertise helps businesses thrive in a rapidly changing world.
                 </motion.div>
-                {/* <div className="satoshi-black text-4xl text-header-text text-center">The Perfect Solution to your business</div>
-                <div className='header-text-foreground text-center mt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque quiuia praesentium repudiandae,<br /> aliquid eveniet perspiciatis vero?</div> */}
                 <div className='mt-20'>
                     <Marquee
                         pauseOnHover
@@ -121,7 +101,6 @@ const LandingPage: React.FC = () => {
                                     />
                                     <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-800 to-transparent p-4'>
                                         <div className='satoshi-medium text-white text-md'>{i.header}</div>
-                                        {/* <p className='text-white text-sm mt-2'>{i.description}</p> */}
                                     </div>
                                 </div>
                             </motion.div>

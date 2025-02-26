@@ -1,6 +1,5 @@
 import { FilledButton } from "@/components/reusable/Button";
-import { Input } from "@/components/ui/input";
-import { founder_friend, hero_img, hero_img_bg } from "@/constants/image";
+import { founder_friend, hero_img_bg } from "@/constants/image";
 import React from "react";
 import { motion } from "framer-motion";
 import SubscribeNewLetter from "@/components/reusable/SubscribeNesLetter";
@@ -36,10 +35,10 @@ const About: React.FC = () => {
                         className="p-4 py-10 relative col-span-2 md:col-span-1"
                     >
                         <img src={hero_img_bg} alt="hero-image_background" className="absolute left-8" />
-                        <img 
-                            src={founder_friend} 
-                            alt="hero_image" 
-                            className="w-full h-full rounded-tr-[100px] rounded-bl-[100px]" 
+                        <img
+                            src={founder_friend}
+                            alt="hero_image"
+                            className="w-full h-full rounded-tr-[100px] rounded-bl-[100px]"
                         />
                     </motion.div>
                 </div>
@@ -60,13 +59,13 @@ const About: React.FC = () => {
                     viewport={{ once: true }}
                     className="flex justify-center mt-10"
                 >
-                    <FilledButton 
+                    <FilledButton
                         text="Book an appointment"
                     />
                 </motion.div>
             </div>
             <div className='py-[150px] container mx-auto'>
-               <SubscribeNewLetter />
+                <SubscribeNewLetter />
             </div>
         </>
     )

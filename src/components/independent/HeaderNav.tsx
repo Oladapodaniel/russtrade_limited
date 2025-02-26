@@ -1,15 +1,12 @@
 import { russtrade_logo } from '@/constants/image';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../ui/button';
 import { OutlinedButton } from '../reusable/Button';
 import { useNavigate } from 'react-router-dom';
 import {
     Sheet,
-    SheetClose,
     SheetContent,
     SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
