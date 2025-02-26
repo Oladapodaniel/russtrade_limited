@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
                         viewport={{ once: true }}
                         className="p-4 col-span-2 md:col-span-1"
                     >
-                        <div className="satoshi-black text-4xl md:text-6xl text-header-text">Your success story <br /> begins with us</div>
+                        <div className="satoshi-black text-4xl md:text-6xl text-header-text">Your Partner in Investment, <br />Finance, and Energy</div>
                         <div className="mt-6 text-header">Unlock strategic opportunities and navigate complex markets with our<br /> comprehensive consultancy services in investment, finance, <br />and oil & gas.</div>
                         <div className='mt-10 flex justify-center sm:justify-start w-full'>
                             <FilledButton
