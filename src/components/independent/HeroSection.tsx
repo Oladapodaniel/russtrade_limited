@@ -2,8 +2,10 @@ import { hero_img, hero_img_bg } from "@/constants/image";
 import React from "react";
 import { FilledButton } from "../reusable/Button";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection: React.FC = () => {
+    const navigate = useNavigate();
     return (
         <div className="bg-gradient-to-t from-primary-foreground to-white ">
             <div className="container mx-auto py-10 ">
@@ -20,6 +22,7 @@ const HeroSection: React.FC = () => {
                         <div className='mt-10 flex justify-center sm:justify-start w-full'>
                             <FilledButton
                                 text="Get Started"
+                                onClick={() => navigate('/contactus')}
                             />
                         </div>
                     </motion.div>

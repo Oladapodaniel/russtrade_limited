@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 interface FilledButtonProps {
     text: string;
     className?: string;
+    onClick?: () => void
 }
 
 interface OutlinedButtonProps {
@@ -10,9 +11,9 @@ interface OutlinedButtonProps {
     onClick: () => void;
 }
 
-export const FilledButton = ({ className, text }: FilledButtonProps) => {
+export const FilledButton = ({ className, text, onClick }: FilledButtonProps) => {
     return (
-        <Button className={`satoshi-bold text-white bg-gradient-to-r from-primary via-green-600 to-green-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-7 py-2.5 text-center me-2 mb-2 cursor-pointer ${className}`}>{text}</Button>
+        <Button onClick={onClick} className={`satoshi-bold text-white bg-gradient-to-r from-primary via-green-600 to-green-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-7 py-2.5 text-center me-2 mb-2 cursor-pointer ${className}`}>{text}</Button>
     );
 }
 

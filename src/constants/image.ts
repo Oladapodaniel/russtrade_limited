@@ -1,4 +1,4 @@
-import russtrade_logo from "../assets/images/russtrade_logo.jpeg";
+import russtrade_logo from "../assets/images/russtrade_logo-2.png";
 import hero_img from "../assets/images/hero_img.png";
 import hero_img_bg from "../assets/images/hero_img_bg.svg";
 import lady_smiling_one from "../assets/images/lady_smiling_one.svg";
