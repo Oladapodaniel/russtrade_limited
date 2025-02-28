@@ -26,7 +26,7 @@ const HeaderNav: React.FC = () => {
     return (
         <>
             <div className="md:hidden flex items-center justify-between px-4 py-3">
-                <div onClick={() => navigate("/")} className='border'>
+                <div onClick={() => navigate("/")}>
                     <img src={russtrade_logo} alt="Logo" className="header-logo w-[100px]" />
                 </div>
 
